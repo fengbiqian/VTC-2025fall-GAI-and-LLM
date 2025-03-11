@@ -10,27 +10,30 @@
             line-height: 1.6;
             margin: 0;
             padding: 40px;
-            background: #0A1F3D; /* 深蓝背景 */
-            color: #FFFFFF;
+            background: #C1E1C1; /* 浅薄荷绿背景 */
+            color: #000000;      /* 黑色文字 */
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.7); /* 更透明的白色 */
             padding: 40px;
             border-radius: 10px;
             backdrop-filter: blur(10px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加轻微阴影增强层次 */
         }
 
         h1 {
-            color: #4FC3F7; /* 科技蓝 */
+            color: #2E7D32; /* 深绿色标题 */
             font-size: 2.5em;
-            margin-bottom: 10px;
+            margin: 0 auto 20px;
+            text-align: center;
+            width: 100%;
         }
 
         h2 {
-            color: #81D4FA;
+            color: #388E3C; /* 中绿色副标题 */
             margin: 25px 0 15px;
         }
 
@@ -42,19 +45,21 @@
         li {
             margin: 12px 0;
             padding: 12px;
-            background: rgba(255, 255, 255, 0.05);
-            border-left: 3px solid #4FC3F7;
+            background: rgba(255, 255, 255, 0.9); /* 白色背景 */
+            border-left: 3px solid #4CAF50; /* 亮绿色边框 */
             transition: 0.3s;
+            color: #333333; /* 深灰色文字 */
         }
 
         li:hover {
-            background: rgba(79, 195, 247, 0.1);
+            background: rgba(76, 175, 80, 0.1); /* 浅绿色悬停效果 */
         }
 
         .date-location {
             font-size: 1.2em;
-            color: #B3E5FC;
+            color: #43A047; /* 中绿色日期 */
             margin-bottom: 30px;
+            text-align: center;
         }
 
         @media (max-width: 768px) {
@@ -64,12 +69,16 @@
             .container {
                 padding: 20px;
             }
+            h1 {
+                font-size: 2em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>IEEE VTC Workshop on Generative AI and Large Model Empowered Next Generation Networks</h1>
+        
         <div class="date-location">
             19 October 2025 (Sunday)<br>
             Chengdu, China
@@ -77,8 +86,6 @@
 
         <h2>Call for Workshop Papers</h2>
         <p>In the dynamic landscape of communication networks, traditional Artificial Intelligence (AI) algorithms have been instrumental, optimizing and troubleshooting functions within communication networks. However, as 6G networks demand higher performance, traditional AI models face limitations. Breakthroughs in Generative AI (GAI) and large model, including transformer-based models like GPT-3.5 and GPT-4, offer the ability to support customization and data generation, introducing a new dimension to communication networks with dynamic adaptation. GAI and large model enhance content creation, network planning, and infrastructure deployment, improving efficiency and user experience. As GAI and large model integrate into next-generation networks, they drive innovation, adaptability, and personalized experiences in communication. At the same time, integrating GAI and large models into next-generation networks requires careful consideration of how to optimize the corresponding communication technologies to ensure their reliable operation and high performance. This proposed half-day workshop will seek to bring together researchers and experts from academia, industry, and governmental agencies to discuss and promote the research and development needed to overcome the major challenges that pertain to this cutting-edge research topic. Suitable topics for this workshop include, but are not limited to, the following areas:</p>
-
-        <h2>Suitable topics include:</h2>
         <ul>
             <li>Generative AI (GAI)/large models for vehicular networks</li>
             <li>GAI/large models for space-air-ground networks</li>
